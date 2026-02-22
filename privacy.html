@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — Foura Studio</title>
+  <meta name="description" content="Kebijakan Privasi untuk aplikasi dan game Foura Studio, termasuk CiloQu." />
+  <style>
+    :root { --bg:#0b0f17; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --acc:#60a5fa; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--acc)}
+    .wrap{max-width:880px;margin:0 auto;padding:28px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);text-decoration:none;color:var(--text)}
+    .card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.10);border-radius:18px;padding:22px}
+    h1{margin:0 0 10px;font-size:26px}
+    h2{margin:18px 0 10px;font-size:18px}
+    p,li{color:var(--muted);line-height:1.65}
+    .small{font-size:12px;color:#6b7280}
+    code{background:rgba(255,255,255,.06);padding:2px 6px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="index.html">← Back</a>
+      <div>Foura Studio</div>
+    </div>
+
+    <div class="card" style="margin-top:14px">
+      <h1>Privacy Policy</h1>
+      <p>Last updated: <b id="d"></b></p>
+
+      <p>
+        Kebijakan Privasi ini menjelaskan bagaimana <b>Foura Studio</b> (“kami”) menangani informasi ketika Anda
+        menggunakan aplikasi dan game kami, termasuk <b>CiloQu</b>.
+      </p>
+
+      <h2>1) Informasi yang Kami Kumpulkan</h2>
+      <p>
+        Kami tidak meminta Anda membuat akun di aplikasi. Namun, aplikasi dapat menggunakan layanan pihak ketiga
+        (misalnya untuk iklan dan analitik) yang dapat mengumpulkan informasi tertentu, seperti:
+      </p>
+      <ul>
+        <li>Informasi perangkat (model perangkat, versi OS, bahasa, dan informasi teknis dasar).</li>
+        <li>Identifier iklan (Advertising ID) atau identifier serupa, sesuai pengaturan perangkat Anda.</li>
+        <li>Data penggunaan aplikasi (misalnya event dasar untuk analitik performa dan stabilitas).</li>
+        <li>Alamat IP dapat diproses oleh layanan pihak ketiga untuk tujuan jaringan/keamanan.</li>
+      </ul>
+
+      <h2>2) Iklan</h2>
+      <p>
+        Aplikasi dapat menampilkan iklan melalui layanan pihak ketiga seperti <b>Google AdMob</b>.
+        Pihak ketiga tersebut dapat memproses data untuk penayangan iklan, pengukuran, pencegahan penipuan, dan kepatuhan.
+      </p>
+      <p>
+        Anda dapat membaca kebijakan privasi Google untuk memahami bagaimana data diproses oleh Google.
+      </p>
+
+      <h2>3) Penyimpanan Data</h2>
+      <p>
+        Sebagian data aplikasi (misalnya pengaturan atau progres) dapat disimpan secara lokal di perangkat Anda.
+        Kami tidak mengunggah data pribadi secara sengaja ke server kami.
+      </p>
+
+      <h2>4) Anak-anak</h2>
+      <p>
+        Aplikasi tidak ditujukan khusus untuk anak-anak di bawah usia yang ditetapkan hukum setempat.
+        Jika Anda yakin ada data anak yang terkumpul tanpa sengaja, hubungi kami untuk penanganan.
+      </p>
+
+      <h2>5) Keamanan</h2>
+      <p>
+        Kami berupaya menjaga keamanan aplikasi. Namun, tidak ada metode transmisi atau penyimpanan data yang 100% aman.
+      </p>
+
+      <h2>6) Perubahan Kebijakan</h2>
+      <p>
+        Kebijakan ini dapat diperbarui dari waktu ke waktu. Perubahan akan dipublikasikan di halaman ini.
+      </p>
+
+      <h2>7) Kontak</h2>
+      <p>
+        Jika ada pertanyaan terkait privasi, hubungi:
+        <a href="mailto:fourastudio.digital@gmail.com">fourastudio.digital@gmail.com</a>
+      </p>
+
+      <p class="small">
+        Catatan: Halaman ini disediakan untuk kepatuhan dasar (misalnya Google Play/AdMob). Jika fitur aplikasi berubah
+        (login, pembelian, penyimpanan cloud, dll), kebijakan ini akan kami sesuaikan.
+      </p>
+    </div>
+
+    <p class="small" style="margin-top:12px">© <span id="y"></span> Foura Studio</p>
+  </div>
+
+  <script>
+    const now = new Date();
+    document.getElementById('y').textContent = now.getFullYear();
+    document.getElementById('d').textContent = now.toISOString().slice(0,10);
+  </script>
+</body>
+</html>
